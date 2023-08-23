@@ -1,0 +1,43 @@
+.share{
+    margin-top: 100px;
+    background: url("/images/123.png");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 7px;
+}
+
+.descr{
+    position: absolute;
+    top: -50px;
+    color: var(--color-gray-2, #616161);
+    text-align: center;
+    /* Body / Xtra Large - semibold */
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+}
+
+.name{
+    position: absolute;
+    color: var(--color-gray-1, #3A3A3A);
+    text-align: center;
+    top: -20px;
+    /* Heading / H2 */
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+}
+
+.hr{
+    margin: 80px 0;
+    width: 100%;
+}

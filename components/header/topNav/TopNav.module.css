@@ -1,0 +1,167 @@
+.topNav{
+    height: 45px;
+    width: 100%;
+    position: relative;
+    margin: 40px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navButton{
+    width: 100%;
+    display: flex;
+
+}
+
+.menu{
+    display: none;
+}
+
+.headerLogo{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-family: GilroyBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headerLogoSmall{
+    display: none;
+    height: 45px;
+    align-items: center;
+    color: #000;
+    font-family: GilroyBold;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.headerButton{
+    display: flex;
+}
+
+.headerNav{
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+    margin: 0 43px 0 41px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+.navName{
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+.headerNav>div{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.headerNav span{
+    padding-right: 8px;
+}
+
+.headerSearch{
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.headerSearch input{
+    border: none;
+    max-width: 432px;
+    width: calc(100%);
+    height: 45px;
+    flex-shrink: 0;
+    padding-left: 44px;
+    min-width: 200px;
+}
+
+.headerSearch input:active{
+    border: none;
+}
+
+.headerSearch img{
+    position: absolute;
+    left: 12px;
+    top: 12px;
+
+}
+
+.headerProfile{
+    gap: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 152px;
+    margin-right: 20px;
+}
+
+.headerProfile a{
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width: 1100px) {
+    .topNav{
+        height: auto;
+    }
+    .navButton{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        height: auto;
+    }
+    .headerNav{
+        order: 1
+    }
+    .headerSearch{
+        order: 3;
+        margin: 0;
+    }
+    .headerSearch input{
+        top: 17px;
+    }
+    .headerProfile{
+        order: 2;
+
+    }
+    .headerSearch input{
+        width: 100%;
+        max-width: none;
+    }
+}
+
+@media (max-width: 884px) {
+    .menu{
+        display: block;
+    }
+    .headerLogoSmall{
+        display: flex;
+    }
+    .navButton{
+        display: none;
+        flex-direction: column;
+    }
+    .topNav{
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+    .headerNav{
+        flex-direction: column;
+    }
+}
+
+
+

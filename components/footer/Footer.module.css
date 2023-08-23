@@ -1,0 +1,61 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.descrName{
+    color: #000;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.descr{
+    color: var(--color-gray-2, #616161);
+    margin-top: 16px;
+    /* Body / Normal - Regular */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    display: flex;
+    cursor: pointer;
+}
+
+.descr button{
+    width: 46px;
+    height: 45px;
+    background: var(--color-primary, #E89F71);
+    cursor: pointer;;
+}
+
+.descrIcon{
+    margin-right: 8px;
+}
+
+.descr button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin-left: 4px;
+}
+
+.descr input{
+    background: var(--color-light-bg, #F4F5F7);
+    border: none;
+    color: var(--gray-3, #828282);
+    /* Body / Normal - Regular */
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    padding: 12px;
+}

@@ -1,0 +1,41 @@
+.featureBlock{
+    margin: 88px 100px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature{
+    display: flex;
+    align-items: center;
+    height: 85px;
+}
+
+.feature img{
+    margin: 24px;
+}
+
+.name{
+    font-family: GilroyBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+    color: #3A3A3A;
+}
+
+.descr{
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    color: #898989;
+}
+
+@media (max-width: 546px) {
+    .featureBlock{
+
+    }
+}

@@ -1,0 +1,53 @@
+.headerAd{
+    width: 494px;
+    height: 553px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(15.5px);
+    position: absolute;
+    z-index: 4;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    left: 100px;
+}
+
+.headerAd h1{
+    font-family: GilroyBold;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+
+.headerAd span{
+    margin-bottom: 50px;
+    color: #898989;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 30px */
+}
+
+.headerAd button{
+    width: 374px;
+    height: 78px;
+    background: #E89F71;
+    border: none;
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+    color: #fff;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1174px) {
+    .headerAd{
+        display: none;
+    }
+}

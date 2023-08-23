@@ -1,0 +1,115 @@
+.tips{
+    width: 100%;
+}
+
+.title{
+    color: var(--color-gray-1, #3A3A3A);
+    text-align: center;
+    /* Heading / H2 */
+    font-family: GilroyBold;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 48px */
+    margin-bottom: 32px;
+}
+
+.tipsBlock{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.slider{
+    position: relative;
+    max-width: 1240px!important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.descr{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    background: var(--color-white, #FFF);
+    width: 100%;
+    -webkit-box-shadow: 0px 10px 30px -27px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 10px 30px -27px rgba(0, 0, 0, 1);
+    box-shadow: 0px 10px 30px -27px rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+.tipsName{
+    color: var(--color-gray-1, #3A3A3A);
+    /* Heading / H5 */
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 28.8px */
+}
+
+.tipsDescr{
+    color: var(--color-gray-3, #898989);
+    /* Body / Small - Regular */
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+
+.sliderNav{
+    color: #fff;
+    background: #E89F71;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 4;
+    top: 30%;
+}
+
+.sliderNavRight{
+    right: -23px;
+}
+
+.sliderNavLeft{
+    left: -23px;
+}
+
+
+
+@media (max-width: 1300px) {
+    .slider{
+        width: 1100px;
+    }
+    .image{
+        width: 100%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 1175px) {
+    .slider{
+        width: 900px;
+    }
+}
+
+@media (max-width: 970px) {
+    .slider{
+        width: 700px;
+    }
+    .image{
+        height: 100%;
+    }
+}
+
+@media (max-width: 760px) {
+    .slider{
+        width: 360px;
+    }
+}
